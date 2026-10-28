@@ -17,3 +17,8 @@ let increasedPrices = prices.map((price) => {
     return price + 50;
 });
 console.log(increasedPrices);
+let squares = [2, 4, 6];
+let result = squares.map((square) => {
+    return square ** 2;
+});
+console.log(result);

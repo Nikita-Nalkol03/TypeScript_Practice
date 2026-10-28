@@ -25,3 +25,9 @@ let increasedPrices=prices.map((price)=>{
 console.log(increasedPrices);
 
 
+let squares:number[]=[2,4,6];
+
+let result=squares.map((square)=>{
+    return square**2;
+})
+console.log(result);
